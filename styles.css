@@ -20,6 +20,13 @@ body {
 .btn-grid {
     display:grid;
     gap:5px;
+    margin:20px 0;
+}
+
+.btn {
+    background-color: #8F00EB;
+    color:white;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
