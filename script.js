@@ -1,0 +1,16 @@
+const startButton = document.getElementById('start-btn')
+const questionContainerElement = document.getElementById ('question-container')
+
+function startGame() {
+    startButton.classList.add('hide')
+    questionContainerElement.classList.remove('hide')
+    setNextQuestion()
+}
+
+function setNextQuestion() {
+
+}
+
+function selectAnswer() {
+
+}

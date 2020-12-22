@@ -6,27 +6,46 @@ body {
     padding:0;
     margin:0;
     display:flex;
-    widows: 100vw;;
-    height:30vh;
+    width: 100vw;
+    height:40vh;
     justify-content: center;
     align-items: center;
 }
 .container  {
     width:800px;
     max-width: 80%;
+    border-radius:  5px;
     padding:10px;
 }
 
 .btn-grid {
     display:grid;
-    gap:5px;
+    gap:10px;
     margin:20px 0;
 }
 
 .btn {
+    border: 1px solid black;
     background-color: #8F00EB;
+    padding:5px 10px;
     color:white;
-    
+    outline: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.btn:hover {
+    border-color:black;
+}
+.start-btn, .next-btn {
+    font-size:1.5rem;
+    font-weight:bold;
+    padding: 10px 20px;
+    
+}
+.controls {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display:none;
+}
